@@ -1,8 +1,6 @@
 {
-    "name": "orchestra/platform",
-    "description": "Orchestra Platform",
-    "homepage": "http://orchestraplatform.com/docs/latest/",
-    "keywords": ["framework", "laravel", "orchestra-platform", "orchestral"],
+    "name": "laravie/laravie",
+    "description": "Orchestra Platform Packages Development Workbench",
     "license": "MIT",
     "type": "project",
     "require": {
