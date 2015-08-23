@@ -1,0 +1,3 @@
+[submodule "workbench/laravie/media"]
+	path = workbench/laravie/media
+	url = git@github.com:laravie/media.git
