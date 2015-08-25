@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "e612af30501e3d9f64f396f66104f872",
+    "hash": "b214ecc7182b0d2d688acfe554efe766",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -1486,16 +1486,16 @@
         },
         {
             "name": "orchestra/notifier",
-            "version": "v3.1.4",
+            "version": "v3.1.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/notifier.git",
-                "reference": "fc44b418cf5f842ed2cd1755528748d43d4a29a8"
+                "reference": "3809c8865e067c00478a12e4d57da5ebf1ffd993"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/notifier/zipball/fc44b418cf5f842ed2cd1755528748d43d4a29a8",
-                "reference": "fc44b418cf5f842ed2cd1755528748d43d4a29a8",
+                "url": "https://api.github.com/repos/orchestral/notifier/zipball/3809c8865e067c00478a12e4d57da5ebf1ffd993",
+                "reference": "3809c8865e067c00478a12e4d57da5ebf1ffd993",
                 "shasum": ""
             },
             "require": {
@@ -1538,20 +1538,20 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2015-08-22 19:14:48"
+            "time": "2015-08-24 04:53:08"
         },
         {
             "name": "orchestra/optimize",
-            "version": "v3.1.1",
+            "version": "v3.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/optimize.git",
-                "reference": "d2a6300262b12452ef3c57c10b7bdc1e40ba4301"
+                "reference": "fd8903c51cd8ec25545be967062e969bea6a91b1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/optimize/zipball/d2a6300262b12452ef3c57c10b7bdc1e40ba4301",
-                "reference": "d2a6300262b12452ef3c57c10b7bdc1e40ba4301",
+                "url": "https://api.github.com/repos/orchestral/optimize/zipball/fd8903c51cd8ec25545be967062e969bea6a91b1",
+                "reference": "fd8903c51cd8ec25545be967062e969bea6a91b1",
                 "shasum": ""
             },
             "require": {
@@ -1591,7 +1591,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2015-06-16 15:45:59"
+            "time": "2015-08-24 00:01:34"
         },
         {
             "name": "orchestra/publisher",
@@ -3174,26 +3174,29 @@
         },
         {
             "name": "orchestra/studio",
-            "version": "3.1.x-dev",
+            "version": "v3.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/studio.git",
-                "reference": "c97c01b0dd42be4889d7ef900aeb411720b19c9a"
+                "reference": "46b90ba0c6d14f921dcb0b5b4f068c314f58bbc3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/studio/zipball/c97c01b0dd42be4889d7ef900aeb411720b19c9a",
-                "reference": "c97c01b0dd42be4889d7ef900aeb411720b19c9a",
+                "url": "https://api.github.com/repos/orchestral/studio/zipball/46b90ba0c6d14f921dcb0b5b4f068c314f58bbc3",
+                "reference": "46b90ba0c6d14f921dcb0b5b4f068c314f58bbc3",
                 "shasum": ""
             },
             "require": {
                 "orchestra/support": "~3.1.0",
-                "php": ">=5.4.0",
-                "wikimedia/composer-merge-plugin": "~1.1"
+                "php": ">=5.4.0"
             },
             "require-dev": {
                 "illuminate/console": "~5.1.0",
+                "illuminate/filesystem": "~5.1.0",
                 "mockery/mockery": "0.9.*"
+            },
+            "suggest": {
+                "wikimedia/composer-merge-plugin": "Add workbench support for Orchestra Platform (~1.1)."
             },
             "type": "library",
             "extra": {
@@ -3218,7 +3221,7 @@
                 }
             ],
             "description": "Code Generator for Orchestra Platform",
-            "time": "2015-08-09 23:08:05"
+            "time": "2015-08-23 10:17:21"
         },
         {
             "name": "orchestra/testbench",
@@ -3799,16 +3802,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "4.8.5",
+            "version": "4.8.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "9b7417edaf28059ea63d86be941e6004dbfcc0cc"
+                "reference": "2246830f4a1a551c67933e4171bf2126dc29d357"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/9b7417edaf28059ea63d86be941e6004dbfcc0cc",
-                "reference": "9b7417edaf28059ea63d86be941e6004dbfcc0cc",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/2246830f4a1a551c67933e4171bf2126dc29d357",
+                "reference": "2246830f4a1a551c67933e4171bf2126dc29d357",
                 "shasum": ""
             },
             "require": {
@@ -3867,7 +3870,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2015-08-19 09:20:57"
+            "time": "2015-08-24 04:09:38"
         },
         {
             "name": "phpunit/phpunit-mock-objects",
@@ -4344,53 +4347,6 @@
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
             "time": "2015-07-28 14:07:07"
-        },
-        {
-            "name": "wikimedia/composer-merge-plugin",
-            "version": "v1.2.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/wikimedia/composer-merge-plugin.git",
-                "reference": "c455fb5ca09da6b970355b19185e27415bc15756"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/wikimedia/composer-merge-plugin/zipball/c455fb5ca09da6b970355b19185e27415bc15756",
-                "reference": "c455fb5ca09da6b970355b19185e27415bc15756",
-                "shasum": ""
-            },
-            "require": {
-                "composer-plugin-api": "^1.0",
-                "php": ">=5.3.2"
-            },
-            "require-dev": {
-                "composer/composer": "1.0.*@dev",
-                "jakub-onderka/php-parallel-lint": "~0.8",
-                "phpspec/prophecy-phpunit": "~1.0",
-                "phpunit/phpunit": "~4.0",
-                "squizlabs/php_codesniffer": "~2.1.0"
-            },
-            "type": "composer-plugin",
-            "extra": {
-                "class": "Wikimedia\\Composer\\MergePlugin"
-            },
-            "autoload": {
-                "psr-4": {
-                    "Wikimedia\\Composer\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Bryan Davis",
-                    "email": "bd808@wikimedia.org"
-                }
-            ],
-            "description": "Composer plugin to merge multiple composer.json files",
-            "time": "2015-07-03 03:24:58"
         }
     ],
     "aliases": [],
