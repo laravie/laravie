@@ -1,0 +1,3 @@
+[submodule "workbench/laravie/queue-monitor"]
+	path = workbench/laravie/queue-monitor
+	url = git@github.com:laravie/queue-monitor.git
