@@ -50,6 +50,13 @@
     "config": {
         "preferred-install": "dist"
     },
+    "extra": {
+        "merge-plugin": {
+            "include": [
+                "workbench/*/*/composer.json"
+            ]
+        }
+    },
     "prefer-stable": true,
     "minimum-stability": "dev"
 }
